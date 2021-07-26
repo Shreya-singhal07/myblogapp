@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block body %}
+<h1>{{ project.title }}</h1>
+<div class="row">
+    <div class="col-md-8">
+        <img src="https://source.unsplash.com/random/1600x900" alt="" width="100%">
+    </div>
+    <div class="col-md-4">
+        <h5>About the project:</h5>
+        <p>{{ project.description }}</p>
+        <br>
+    </div>
+</div>
+{% endblock body %}
